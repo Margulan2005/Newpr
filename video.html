@@ -7,40 +7,60 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <img src = "./src/public/luntik.jpg" width = 60 height = 60 alt = "logo">
+    <nav class="navbar open">
+        <img src="./src/public/luntik.jpg" width="60" height="60" alt="Logo" title="Logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="video.html">Video</a></li>
             <li><a href="audio.html">Music</a></li>
             <li><a href="book.html">Book</a></li>
+            <li class="work"><a href="#">Work &bigtriangledown;</a>
+                <ul>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="math.html">Math</a></li>
+                    <li><a href="api.html">API</a></li>
+                </ul>
+            </li>
         </ul>
-        <div><a href="https://ku.edu.kz/">Entry</a></div>
+        <div><a href="https://ku.edu.kz/" target="_blank">Entry</a>
+        
+        <div class = "burger" id = "burger2">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+        </div>
     </nav>
 
-    <main>
-        <section>
-            <video src = "./src/public/videoplayback.mp4" controls width = 600 height = 400></video>
-                <p>Ronaldo is the Champions League record scorer with 140 goals from 183 appearances for Manchester United, Real Madrid and Juventus. He was top scorer in seven seasons, including a record 17 goals in 2013-14, and is the only player to score in three finals. </p>
-        </section>
-        <section>
+    <main class="container-video">
+        <section class="video1">
+            <div class="video-thumbnail video-thumbnail1">
+                <img src="./src/public/video-thumbnail1.jpg" alt="Video Thumbnail 1" title="Cristiano Ronaldo Champions League Record">
+            </div>
+            <video src="./src/public/videoplayback.mp4" controls width="600" height="400"></video>
+            <p>Ronaldo is the Champions League record scorer with 140 goals from 183 appearances for Manchester United, Real Madrid, and Juventus. He was top scorer in seven seasons, including a record 17 goals in 2013-14, and is the only player to score in three finals.</p>
+        </section>        
+        <section class="video2">
+            <div class="video-thumbnail">
+                <img src="./src/public/video-thumbnail2.jpg" alt="Video Thumbnail 2" title="Cristiano Ronaldo UEFA Champions League Award">
+            </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Xg8TTKuSGbA?si=reoP6ded6zA7_d-n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Cristiano Ronaldo honoured with special award as the UEFA Champions League All-Time Top Scorer.
-                Hit 'Subscribe' above to ensure you never miss a video from the TNT Sports YouTube channel.
-                From the front row to your front room. From the centre circle to your sofa. TNT Sports brings you closer to the live sport you love.</p>
+            <p>Cristiano Ronaldo honoured with special award as the UEFA Champions League All-Time Top Scorer. Hit 'Subscribe' above to ensure you never miss a video from the TNT Sports YouTube channel. From the front row to your front room. From the centre circle to your sofa. TNT Sports brings you closer to the live sport you love.</p>
         </section>
-        <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-hJzeci7ydo?si=MDitWhIant4eW0bL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>0% Sportsmanship but it gets increasingly more disrespectful
-            Enjoy!
-            #football #soccer</p>
+        <section class="video3">
+            <div class="video-thumbnail">
+                <img src="./src/public/video-thumbnail3.jpg" alt="Video Thumbnail 3" title="Football Highlights">
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-hJzeci7ydo?si=MDitWhIant4eW0bL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>0% Sportsmanship but it gets increasingly more disrespectful. Enjoy! #football #soccer</p>
         </section>
     </main>
     <footer>
-        <a href="https://www.facebook.com/Cristiano/"><img src="./src/public/facebook.png" width = 60 height = 60 alt = "Facebook"> </a>
-        <a href="https://www.instagram.com/cristiano/"><img src="./src/public/instagram.jpg" width = 60 height = 60 alt = "IG"> </a>
-        <a href="https://www.youtube.com/@cristiano"><img src="./src/public/youtube.png" width = 60 height = 60 alt = "YT"> </a>
+        <a href="https://www.facebook.com/Cristiano/" target="_blank"><img src="./src/public/facebook.png" width="60" height="60" alt="Facebook" title="Cristiano's Facebook"></a>
+        <a href="https://www.instagram.com/cristiano/" target="_blank"><img src="./src/public/instagram.jpg" width="60" height="60" alt="Instagram" title="Cristiano's Instagram"></a>
+        <a href="https://www.youtube.com/@cristiano" target="_blank"><img src="./src/public/youtube.png" width="60" height="60" alt="YouTube" title="Cristiano's YouTube Channel"></a>
     </footer>
-
+    <script src = "./js/script.js"></script>
 </body>
 </html>

@@ -7,39 +7,54 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <img src = "./src/public/luntik.jpg" width = 60 height = 60 alt = "logo">
+    <nav class="navbar open">
+        <img src="./src/public/luntik.jpg" width="60" height="60" alt="Logo" title="Logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="video.html">Video</a></li>
             <li><a href="audio.html">Music</a></li>
             <li><a href="book.html">Book</a></li>
+            <li class="work"><a href="#">Work &bigtriangledown;</a>
+                <ul>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="math.html">Math</a></li>
+                    <li><a href="api.html">API</a></li>
+                </ul>
+            </li>
         </ul>
-        <div><a href="https://ku.edu.kz/">Entry</a></div>
+        <div><a href="https://ku.edu.kz/" target="_blank">Entry</a>
+        
+        <div class = "burger" id = "burger2">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+        </div>
     </nav>
 
-    <main>
-        <section>
-            <img src = "./src/public/1984 book cover.jpg" width="600" height="400">
-            <a href="./src/public/Nineteen Eighty-Four.pdf">Download Book</a>
+    <main class="container-book">
+        <section class="book1">
+            <img src="./src/public/1984 book cover.jpg" width="600" height="400" alt="1984 Book Cover">
+            <a href="./src/public/Nineteen Eighty-Four.pdf" target="_blank">Download Book</a>
             <p>Nineteen Eighty-Four is a dystopian novel and cautionary tale by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime.</p>
         </section>
-        <section>
-            <img src = "./src/public/war and peace book cover.jpg" width="600" height="400">
-            <a href="./src/public/War and Peace.pdf">Download Book</a>
+        <section class="book2">
+            <img src="./src/public/war and peace book cover.jpg" width="600" height="400" alt="War and Peace Book Cover">
+            <a href="./src/public/War and Peace.pdf" target="_blank">Download Book</a>
             <p>War and Peace is a literary work by Russian author Leo Tolstoy. Set during the Napoleonic Wars, the work mixes fictional narrative with chapters discussing history and philosophy. An early version was published serially beginning in 1865, after which the entire book was rewritten and published in 1869.</p>
         </section>
-        <section>
-            <img src = "./src/public/ulysses book cover.jpg" width="600" height="400">
-            <a href="./src/public/Ulysses.pdf">Download Book</a>
+        <section class="book3">
+            <img src="./src/public/ulysses book cover.jpg" width="600" height="400" alt="Ulysses Book Cover">
+            <a href="./src/public/Ulysses.pdf" target="_blank">Download Book</a>
             <p>Ulysses is a modernist novel by the Irish writer James Joyce. Parts of it were first serialized in the American journal The Little Review from March 1918 to December 1920, and the entire work was published in Paris by Sylvia Beach on 2 February 1922, Joyce's fortieth birthday.</p>
         </section>
     </main>
     <footer>
-        <a href="https://www.facebook.com/Cristiano/"><img src="./src/public/facebook.png" width = 60 height = 60 alt = "Facebook"> </a>
-        <a href="https://www.instagram.com/cristiano/"><img src="./src/public/instagram.jpg" width = 60 height = 60 alt = "IG"> </a>
-        <a href="https://www.youtube.com/@cristiano"><img src="./src/public/youtube.png" width = 60 height = 60 alt = "YT"> </a>
+        <a href="https://www.facebook.com/Cristiano/" target="_blank"><img src="./src/public/facebook.png" width="60" height="60" alt="Facebook"></a>
+        <a href="https://www.instagram.com/cristiano/" target="_blank"><img src="./src/public/instagram.jpg" width="60" height="60" alt="Instagram"></a>
+        <a href="https://www.youtube.com/@cristiano" target="_blank"><img src="./src/public/youtube.png" width="60" height="60" alt="YouTube"></a>
     </footer>
-
+    <script src = "./js/script.js"></script>
 </body>
 </html>
