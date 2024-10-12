@@ -415,3 +415,299 @@ footer a {
 .form form fieldset{
     width: 65%;
 }
+
+.math{
+    display: flex;
+}
+
+.math form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.math form fieldset{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.math form fieldset legend{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.math form fieldset .counters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.math form fieldset .counters div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.math form fieldset .counters div label, input {
+    margin: auto;
+    text-align: center;
+}
+
+.math form fieldset .counters div input {
+    width: 70%;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.math form fieldset .butcont {
+    display: flex;
+    flex: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.math form fieldset .butcont button {
+    display: block;
+    width: 20%;
+    box-sizing: border-box;
+    height: 40px;
+    margin: auto;
+}
+
+.math form fieldset p {
+    display: flex;
+    margin: 0;
+}
+
+.math form fieldset p span{
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.math form fieldset{
+    width: 70%;
+}
+
+.math form fieldset .trig {
+    display: flex;
+    flex: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.math form fieldset .trig button {
+    display: block;
+    width: 20%;
+    box-sizing: border-box;
+    height: 40px;
+    margin: auto;
+}
+
+.API {
+    display:flex;
+    flex-direction: column;
+}
+
+.API .London {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.API .London img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Madrid {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.API .Madrid img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .New_York {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.API .New_York img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Shymkent {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.API .Shymkent img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Lipetsk {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.API .Lipetsk img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Odessa {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.API .Odessa img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .London img {
+    border-radius: 8px;
+}
+
+.API .Madrid img {
+    border-radius: 8px;
+}
+
+.API .New_York img {
+    border-radius: 8px;
+}
+
+.API .Shymkent img {
+    border-radius: 8px;
+}
+
+.API .Lipetsk img {
+    border-radius: 8px;
+}
+
+.API .Odessa img {
+    border-radius: 8px;
+}
+
+.API .London span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .Madrid span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .New_York span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .Shymkent span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .Lipetsk span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .Odessa span {
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .London {
+    width: 100%;
+}
+
+.API .Madrid {
+    width: 100%;
+}
+
+.API .New_York {
+    width: 100%;
+}
+
+.API .Shymkent {
+    width: 100%;
+}
+
+.API .Lipetsk {
+    width: 100%;
+}
+
+.API .Odessa {
+    width: 100%;
+}
+
+.API .London span {
+    font-size: 1.05rem;
+}
+
+.API .Madrid span {
+    font-size: 1.05rem;
+}
+
+.API .New_York span {
+    font-size: 1.05rem;
+}
+
+.API .Shymkent span {
+    font-size: 1.05rem;
+}
+
+.API .Lipetsk span {
+    font-size: 1.05rem;
+}
+
+.API .Odessa span {
+    font-size: 1.05rem;
+}
+
+
